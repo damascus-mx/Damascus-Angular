@@ -1,4 +1,7 @@
 # Damascus Angular
+[![Build Status](https://travis-ci.com/damascus-mx/damascus-angular.svg?branch=master)](https://travis-ci.com/damascus-mx/damascus-angular)
+
+
 Damascus Engineering landing page made with Angular 8.
 
 ## Development server
