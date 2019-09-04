@@ -1,0 +1,29 @@
+@import '~@angular/material/theming';
+@include mat-core();
+
+$damascus-primary: mat-palette($mat-pink);
+$damascus-accent:  mat-palette($mat-blue, A700, A700, A700);
+$damascus-warn:    mat-palette($mat-red);
+$damascus-success: mat-palette($mat-green);
+$damascus-light-theme: mat-light-theme($damascus-primary, $damascus-accent, $damascus-warn);
+$damascus-dark-theme: mat-dark-theme($damascus-primary, $damascus-accent, $damascus-warn);
+
+@include angular-material-theme($damascus-dark-theme);
+
+.damascus-pink {
+    @include angular-material-theme($damascus-light-theme);
+}
+  
+.damascus-pink-dark {
+    @include angular-material-theme($damascus-dark-theme);
+}
+
+$primary: map-get($damascus-dark-theme, primary);
+$accent: map-get($damascus-dark-theme, accent);
+
+:root {
+  --color-primary: #{mat-color($damascus-primary)};
+  --color-accent: #{mat-color($damascus-accent)};
+  --color-warn: #{mat-color($damascus-warn)};
+  --color-success: #{mat-color($damascus-success)};
+}

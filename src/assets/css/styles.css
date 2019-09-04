@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+
+html, body { height: 100%; scroll-behavior: smooth;  }
+body { margin: 0; font-family: 'Poppins', sans-serif; }
+
+a {
+  text-decoration: none;
+}
+
+/* Material Design */
+
+h1, h2, h3, h4, h5, h6, .mat-tab-label, .mat-dialog-title { font-family: 'Poppins', sans-serif; font-weight: 700; }
+mat-card, table, input, mat-form-field, mat-raised-button, mat-button, mat-flat-button, mat-stroked-button, button, .mat-stepper-vertical, .mat-stepper-horizontal > * {
+    font-family: 'Poppins', sans-serif !important;
+}
+
+mat-raised-button, mat-button, mat-flat-button, mat-stroked-button, .mat-tab-label, mat-fab, mat-mini-fab { font-weight: 700!important; }
+mat-card { border-radius: 20px !important; }
+
+.material-icons {
+  font-family: 'Material Icons'!important;
+  font-weight: normal!important;
+}
+
+.mat-form-field-suffix {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast;
+}
+
+.mat-dialog-container {
+    border-radius: 20px !important;
+}
