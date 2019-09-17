@@ -7,7 +7,6 @@ import { MaterialModule } from '../common/modules/material.module';
 /*import { SwiperModule, SwiperConfigInterface } from 'ngx-swiper-wrapper';
 import { SWIPER_CONFIG } from 'ngx-swiper-wrapper';*/
 import { ProductsComponent } from './shared/products/products.component';
-import { FragmentPolyfillModule } from '../common/modules/fragment-polyfill.module';
 import { ServicesComponent } from './shared/services/services.component';
 import { FooterComponent } from './shared/footer/footer.component';
 
@@ -29,9 +28,6 @@ import { FooterComponent } from './shared/footer/footer.component';
     PagesRoutingModule,
     MaterialModule,
     // SwiperModule,
-    FragmentPolyfillModule.forRoot({
-      smooth: true
-  }),
   ]
 })
 export class PagesModule { }

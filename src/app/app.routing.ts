@@ -16,4 +16,10 @@ const ROUTES: Routes = [
     }
 ];
 
-export const RootRouting = RouterModule.forRoot(ROUTES, {useHash: false});
+export const RootRouting = RouterModule.forRoot(ROUTES, {
+    useHash: false,
+    scrollPositionRestoration: 'enabled',
+    anchorScrolling: 'enabled',
+    scrollOffset: [0, 140],
+    onSameUrlNavigation: 'reload'
+});
