@@ -1,0 +1,38 @@
+@import 'src/assets/scss/damascus.scss';
+
+.footer {
+    background: #404040;
+    color: #fff;
+    margin: 0;
+    padding: 40px;
+
+    display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: -moz-box;
+
+    justify-content: center;
+    align-items: center;
+
+    .logo {
+        display: flex;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: -moz-box;
+
+        flex-flow: row wrap;
+
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 40px;
+            width: auto;
+            margin: 8px
+        }
+
+        h4 {
+            margin: 2px;
+        }
+    }
+}

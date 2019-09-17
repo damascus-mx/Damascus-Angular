@@ -1,15 +1,23 @@
-<div class="wrapper mat-app-background">
+<div class="wrapper">
     <mat-drawer-container class="container" autosize>
         <mat-drawer #drawer class="sidenav" mode="side">
-            <p>Auto-resizing sidenav</p>
-            <p *ngIf="showFiller">Lorem, ipsum dolor sit amet consectetur.</p>
-            <button (click)="showFiller = !showFiller" mat-raised-button>
-            Toggle extra text
-            </button>
+            <div class="sidebar-header" (click)="drawer.toggle()" >
+                <img src="assets/img/damascus.svg" alt="" height="40">
+                <span style="margin-left: 10px; font-weight: 700; font-size: 1.2em;">damascus</span>
+            </div>
+            <div class="sidebar-container" >
+                <mat-action-list>
+                    <button mat-list-item matPreffix routerLink="." fragment="home" ><mat-icon>home</mat-icon> <b>Home</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="products"><mat-icon>trending_up</mat-icon> <b>Products</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="services"><mat-icon>layers</mat-icon> <b>Services</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="contact"><mat-icon>phone</mat-icon> <b>Contact</b> </button>
+                </mat-action-list>
+            </div>
         </mat-drawer>
         
-        <div class="wrapper">
-            <div class="navbar">
+        <div class="title-wrapper">
+            <div class="background"></div>
+            <div class="navbar" #navbar_desktop>
                 <mat-toolbar class="mat-elevation-z8" style="padding: 10px 0;">            
                     <mat-toolbar-row>
                         <ng-container>
@@ -19,41 +27,62 @@
                                 </button>
                             </div>
                         </ng-container>
-                        <img src="assets/img/damascus_white.svg" alt="" height="40">
+                        <img src="assets/img/damascus.svg" alt="" height="40">
                         <span style="margin-left: 10px; font-weight: 700; font-size: 1.2em;">damascus</span>
                         <span class="spacer"></span>
                     </mat-toolbar-row>
                 </mat-toolbar>
             </div>
             <div class="navbar-desktop">
-                <img src="assets/img/damascus_white.svg" alt="" height="40">
+                <img src="assets/img/damascus.svg" alt="" height="40">
                 <span style="margin-left: 10px; font-weight: 700;  font-size: 2em;">damascus</span>
                 <span class="spacer"></span>
-                <button class="item-btn" mat-button [routerLink]="[ '' ]" fragment="contact" >
-                    <div class="item mat-app-background">
+                <button class="item-btn" mat-button routerLink="." fragment="home" >
+                    <div class="item">
                         <mat-icon>home</mat-icon>
                         <b>Home</b>
                     </div>
                 </button>
-                <button class="item-btn" mat-button [routerLink]="[ '' ]" fragment="contact" >
-                    <div class="item mat-app-background">
+                <button class="item-btn" mat-button routerLink="." fragment="products" >
+                    <div class="item">
                         <mat-icon>trending_up</mat-icon>
                         <b>Products</b>
                     </div>
                 </button>
-                <button class="item-btn" mat-button [routerLink]="[ '' ]" fragment="contact" >
-                    <div class="item mat-app-background">
+                <button class="item-btn" mat-button routerLink="." fragment="services" >
+                    <div class="item">
                         <mat-icon>layers</mat-icon>
                         <b>Services</b>
                     </div>
                 </button>
-                <button class="item-btn" mat-button [routerLink]="[ '' ]" fragment="contact" >
-                    <div class="item mat-app-background">
+                <button class="item-btn" mat-button routerLink="." fragment="contact" >
+                    <div class="item">
                         <mat-icon>phone</mat-icon>
                         <b>Contact</b>
                     </div>
                 </button>
             </div>
+            <section id="home" name="home">
+                <div class="header">
+                    <h1 class="headline">Transform your ideas</h1>
+                    <p style="font-weight: 300; margin: 0; font-size: larger;">
+                        Make your business bigger with Damascus Engineering&trade; infrastructure & solutions.
+                    </p>
+                    <div class="head-squares">
+                        <div class="square mat-elevation-z8">
+                            <mat-icon>dns</mat-icon>
+                            <b>Infrastructure</b>
+                        </div>
+                        <div class="square mat-elevation-z8" style="background-color: #404040;">
+                            <mat-icon>business</mat-icon>
+                            <b>Services</b>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div class="arrow-container"><button class="animated pulse infinite" mat-fab color="primary" routerLink="." fragment="products"><mat-icon>arrow_downward</mat-icon></button></div>
+        </div>
+        <div class="body">
             <div class="slider">
                 <!-- Swiper
                 <div class="swiper-container" [swiper]="mainSwiper">
@@ -72,25 +101,18 @@
                 </div> -->
             </div>
             <div class="spacer-y"></div>
-            <div class="" >
-                <section id="head">
-                    <div class="header">
-                        <h1 style="font-size: 3em; margin: 0;">Throw Solutions Out of Security</h1>
-                        <p style="font-weight: 300; margin: 0;">
-                            Transform your business model real with Damascus Engineering&trade; infrastructure.
-                        </p>
-                        <p class="header-btn">
-                            <button mat-raised-button color="accent">Find out more</button>
-                        </p>
-                    </div>
-                    <div style="width: 50%;">
-                    </div>
-                </section>
-                <section id="contact">
-                    <h1 style="font-size: 2em;">Contact</h1>
-                </section>
+            <div>
+                <div id="products" name="products">
+                    <app-products></app-products>
+                </div>
+                <div id="services" name="services">
+                    <app-services></app-services>
+                </div>
             </div>
         </div>
+        <footer id="contact" name="contact">
+            <app-footer></app-footer>
+        </footer>
         
     </mat-drawer-container>
 </div>

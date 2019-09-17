@@ -21,6 +21,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
         Material.MatProgressBarModule,
         Material.MatTabsModule,
         Material.MatSidenavModule,
+        Material.MatSnackBarModule,
         LayoutModule,
         FormsModule,
         ReactiveFormsModule,

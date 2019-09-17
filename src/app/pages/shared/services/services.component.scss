@@ -1,0 +1,88 @@
+@import 'src/assets/scss/damascus.scss';
+
+.services-container {
+    display: flex;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+
+    padding: 15px;
+
+    .row {
+        display: flex;
+        display: -moz-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .row > * {
+        margin: 10px;
+    }
+}
+
+.content {
+    text-align: center;
+}
+
+.icon {
+    font-size: xx-large;
+}
+
+.title-service {
+    font-size: x-large;
+}
+
+.card {
+    max-width: 400px;
+    padding: 45px;
+    min-width: 250px;
+}
+
+.sponsors {
+    display: flex;
+    display: -moz-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+
+    flex-flow: row wrap;
+
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.sponsors > * {
+    margin: 20px;
+}
+
+/* Misc */
+.accent {
+    color: $accent;
+}
+
+.primary {
+    color: $primary;
+}
+
+.warn {
+    color: $warn;
+}
+
+.faster {
+    color: #ff9100;
+}
+
+.secured {
+    color: #00c853;
+}

@@ -5,7 +5,11 @@
   "projects": {
     "damascus-angular": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "styleext": "scss"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -88,7 +92,9 @@
             ],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css",
-              "src/styles.css"
+              "src/assets/scss/damascus.scss",
+              "./node_modules/swiper/dist/css/swiper.min.css",
+              "src/assets/css/styles.css"
             ],
             "scripts": []
           }
@@ -121,5 +127,10 @@
       }
     }
   },
-  "defaultProject": "damascus-angular"
+  "defaultProject": "damascus-angular",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }

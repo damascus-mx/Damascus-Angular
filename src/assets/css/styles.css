@@ -14,8 +14,6 @@ mat-card, table, input, mat-form-field, mat-raised-button, mat-button, mat-flat-
     font-family: 'Poppins', sans-serif !important;
 }
 
-mat-raised-button, mat-button, mat-flat-button, mat-stroked-button, .mat-tab-label, mat-fab, mat-mini-fab { font-weight: 700!important; }
-mat-card { border-radius: 20px !important; }
 
 .material-icons {
   font-family: 'Material Icons'!important;
@@ -33,8 +31,4 @@ mat-card { border-radius: 20px !important; }
 
 img {
     image-rendering: -webkit-optimize-contrast;
-}
-
-.mat-dialog-container {
-    border-radius: 20px !important;
 }

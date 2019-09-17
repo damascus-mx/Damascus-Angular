@@ -1,14 +1,17 @@
-import { Component, OnInit } from '@angular/core';
-import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
+import { Component, OnInit, HostListener, ViewChild, ElementRef } from '@angular/core';
+// import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
 import { Router } from '@angular/router';
+import { MatSnackBar } from '@angular/material';
+import smoothscroll from 'smoothscroll-polyfill';
 
 @Component({
   selector: 'app-pages',
   templateUrl: './pages.component.html',
-  styleUrls: ['./pages.component.css']
+  styleUrls: ['./pages.component.scss']
 })
 export class PagesComponent implements OnInit {
   // Swipper
+  /*
   mainSwiper: SwiperConfigInterface = {
     observer: true,
     slidesPerView: 1,
@@ -29,16 +32,29 @@ export class PagesComponent implements OnInit {
       loadedClass: 'swiper-lazy-loaded',
       preloaderClass: 'swiper-lazy-preloader',
     }
-  };
+  };*/
+  @ViewChild('navbar_desktop', {static: false}) navbar: ElementRef;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private snackbar: MatSnackBar) {
+    smoothscroll.polyfill();
   }
 
   ngOnInit() {
     this.router.navigate([], {
-      queryParams: { lang: 'en' },
-      queryParamsHandling: 'preserve'
+      queryParams: { hl: 'en' },
+      queryParamsHandling: 'merge'
+    });
+    this.openSnackBar();
+  }
+
+  openSnackBar(): void {
+    this.snackbar.open('This site uses cookies to improve user experience.', 'OK', {
+      duration: 15000
     });
   }
+
+  @HostListener('document:scroll', [])
+    onScroll(): void {
+    }
 
 }
