@@ -59,6 +59,24 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "es": { 
+              "aot": true,
+              "outputPath": "dist/es/",
+              "i18nFile": "src/locale/messages.es.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "es",
+              "i18nMissingTranslation": "error",
+              "baseHref": "/es/"
+            },
+            "en": {
+              "aot": true,
+              "outputPath": "dist/en/",
+              "i18nFile": "src/locale/messages.en.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "en",
+              "i18nMissingTranslation": "error",
+              "baseHref": "/en/"
             }
           }
         },
@@ -70,6 +88,12 @@
           "configurations": {
             "production": {
               "browserTarget": "damascus-angular:build:production"
+            },
+            "es": {
+              "browserTarget": "damascus-angular:build:es"
+            },
+            "en": {
+              "browserTarget": "damascus-angular:build:en"
             }
           }
         },

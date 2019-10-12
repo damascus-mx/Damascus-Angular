@@ -12,7 +12,7 @@ import { RootRouting } from './app.routing';
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RootRouting
+    RootRouting,
   ],
   providers: [],
   bootstrap: [AppComponent]

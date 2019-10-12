@@ -99,7 +99,7 @@
 }
 
 .background {
-    background-image: url("src/assets/img/background_1_white.svg");
+    background-image: url("src/assets/img/background_1_white_2.svg");
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: scroll;
@@ -138,7 +138,7 @@
     flex-flow: column;
     align-items: center;
 
-    background: #1de9b6;
+    background: $accent;
     color: #fff;
 }
 

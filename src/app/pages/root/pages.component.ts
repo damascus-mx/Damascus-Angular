@@ -1,15 +1,17 @@
-import { Component, OnInit, HostListener, ViewChild, ElementRef } from '@angular/core';
+import { Component, OnInit, HostListener, ViewChild, ElementRef, OnDestroy, LOCALE_ID, Inject } from '@angular/core';
 // import { SwiperConfigInterface } from 'ngx-swiper-wrapper';
-import { Router } from '@angular/router';
+import { Router, NavigationStart, ActivatedRoute, ParamMap, Params } from '@angular/router';
 import { MatSnackBar } from '@angular/material';
 import smoothscroll from 'smoothscroll-polyfill';
+import { Subject } from 'rxjs';
+import { takeUntil, filter, flatMap, map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-pages',
   templateUrl: './pages.component.html',
   styleUrls: ['./pages.component.scss']
 })
-export class PagesComponent implements OnInit {
+export class PagesComponent implements OnInit, OnDestroy {
   // Swipper
   /*
   mainSwiper: SwiperConfigInterface = {
@@ -34,17 +36,35 @@ export class PagesComponent implements OnInit {
     }
   };*/
   @ViewChild('navbar_desktop', {static: false}) navbar: ElementRef;
+  disposer: Subject<void> = new Subject();
 
-  constructor(private router: Router, private snackbar: MatSnackBar) {
+  constructor(private router: Router, private snackbar: MatSnackBar, @Inject(LOCALE_ID) private localeId: string,
+              private route: ActivatedRoute) {
     smoothscroll.polyfill();
+
+    this.router.events
+    .pipe(takeUntil(this.disposer))
+    .pipe(filter(event => event instanceof NavigationStart))
+    .pipe(flatMap((event: NavigationStart) => this.route.queryParams.pipe(map((params: Params) =>
+                    params.hl ? { locale: params.hl, router: event.url } : { router: event.url }))
+                  )
+    )
+    .subscribe((event: any) => {
+      console.log(event);
+    });
   }
 
   ngOnInit() {
     this.router.navigate([], {
-      queryParams: { hl: 'en' },
+      queryParams: { hl: this.localeId },
       queryParamsHandling: 'merge'
     });
     this.openSnackBar();
+  }
+
+  ngOnDestroy(): void {
+    this.disposer.next();
+    this.disposer.complete();
   }
 
   openSnackBar(): void {

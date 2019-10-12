@@ -7,10 +7,10 @@
             </div>
             <div class="sidebar-container" >
                 <mat-action-list>
-                    <button mat-list-item matPreffix routerLink="." fragment="home" ><mat-icon>home</mat-icon> <b>Home</b> </button>
-                    <button mat-list-item matPreffix routerLink="." fragment="products"><mat-icon>trending_up</mat-icon> <b>Products</b> </button>
-                    <button mat-list-item matPreffix routerLink="." fragment="services"><mat-icon>layers</mat-icon> <b>Services</b> </button>
-                    <button mat-list-item matPreffix routerLink="." fragment="contact"><mat-icon>phone</mat-icon> <b>Contact</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="home" ><mat-icon>home</mat-icon> <b i18n="menu_home | Main menu">Home</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="products"><mat-icon>trending_up</mat-icon> <b i18n="menu_products | Product menu">Products</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="services"><mat-icon>layers</mat-icon> <b i18n="menu_services | Services menu">Services</b> </button>
+                    <button mat-list-item matPreffix routerLink="." fragment="contact"><mat-icon>phone</mat-icon> <b i18n="menu_contact | Contact menu">Contact</b> </button>
                 </mat-action-list>
             </div>
         </mat-drawer>
@@ -40,42 +40,42 @@
                 <button class="item-btn" mat-button routerLink="." fragment="home" >
                     <div class="item">
                         <mat-icon>home</mat-icon>
-                        <b>Home</b>
+                        <b i18n="menu_home | Main menu">Home</b>
                     </div>
                 </button>
                 <button class="item-btn" mat-button routerLink="." fragment="products" >
                     <div class="item">
                         <mat-icon>trending_up</mat-icon>
-                        <b>Products</b>
+                        <b i18n="menu_products | Product menu">Products</b>
                     </div>
                 </button>
                 <button class="item-btn" mat-button routerLink="." fragment="services" >
                     <div class="item">
                         <mat-icon>layers</mat-icon>
-                        <b>Services</b>
+                        <b i18n="menu_services | Services menu">Services</b>
                     </div>
                 </button>
                 <button class="item-btn" mat-button routerLink="." fragment="contact" >
                     <div class="item">
                         <mat-icon>phone</mat-icon>
-                        <b>Contact</b>
+                        <b i18n="menu_contact | Contact menu">Contact</b>
                     </div>
                 </button>
             </div>
             <section id="home" name="home">
                 <div class="header">
-                    <h1 class="headline">Transform your ideas</h1>
-                    <p style="font-weight: 300; margin: 0; font-size: larger;">
+                    <h1 class="headline" i18n="main_header | Main title header">Transform your ideas</h1>
+                    <p style="font-weight: 300; margin: 0; font-size: larger;" i18n="main_slogan | Main slogan on header">
                         Make your business bigger with Damascus Engineering&trade; infrastructure & solutions.
                     </p>
                     <div class="head-squares">
                         <div class="square mat-elevation-z8">
                             <mat-icon>dns</mat-icon>
-                            <b>Infrastructure</b>
+                            <b i18n="main_square1 | Header option 1">Infrastructure</b>
                         </div>
                         <div class="square mat-elevation-z8" style="background-color: #404040;">
                             <mat-icon>business</mat-icon>
-                            <b>Services</b>
+                            <b i18n="main_square2 | Header option 2">Services</b>
                         </div>
                     </div>
                 </div>

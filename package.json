@@ -1,13 +1,15 @@
 {
   "name": "damascus-angular",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "ng:buid:en": "ng build --output-path=dist/en --aot --prod --base-href /en/ --i18n-file=src/locale/messages.en.xlf --i18n-format=xlf --i18n-locale=en-US",
+    "ng:buid:es": "ng build --output-path=dist/es --aot --prod --base-href /es/ --i18n-file=src/locale/messages.es.xlf --i18n-format=xlf --i18n-locale=es"
   },
   "private": true,
   "dependencies": {

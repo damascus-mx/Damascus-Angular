@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="af21cfea25b997b0fe467df9b771bc553ddb2055" datatype="html">
+        <source>Home</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description"> Main menu</note>
+        <note priority="1" from="meaning">menu_home </note>
+      </trans-unit>
+      <trans-unit id="42d6f50cbcf221cb75b514cde618d34e9b34dfdc" datatype="html">
+        <source>Products</source>
+        <target>Products</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description"> Product menu</note>
+        <note priority="1" from="meaning">menu_products </note>
+      </trans-unit>
+      <trans-unit id="7d85e3c2205d1195bac54f0496429d32e055e79e" datatype="html">
+        <source>Services</source>
+        <target>Services</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <note priority="1" from="description"> Services menu</note>
+        <note priority="1" from="meaning">menu_services </note>
+      </trans-unit>
+      <trans-unit id="e7125875a189f6b550aa6bcdf9a24fd785288820" datatype="html">
+        <source>Contact</source>
+        <target>Contact</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description"> Contact menu</note>
+        <note priority="1" from="meaning">menu_contact </note>
+      </trans-unit>
+      <trans-unit id="d43822625b82784b4433c8321fc3536b0d982c9e" datatype="html">
+        <source>Transform your ideas</source>
+        <target>Transform your ideas</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">67</context>
+        </context-group>
+        <note priority="1" from="description"> Main title header</note>
+        <note priority="1" from="meaning">main_header </note>
+      </trans-unit>
+      <trans-unit id="2f91d0009490943d3cfa0796f3658c61d6c7f3c9" datatype="html">
+        <source>
+                        Make your business bigger with Damascus Engineering™ infrastructure &amp; solutions.
+                    </source>
+        <target>Make your business bigger with Damascus Engineering™ infrastructure &amp; solutions.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <note priority="1" from="description"> Main slogan on header</note>
+        <note priority="1" from="meaning">main_slogan </note>
+      </trans-unit>
+      <trans-unit id="f72b572bfc43a5e527b15b7ac8dd9ae3be35534b" datatype="html">
+        <source>Infrastructure</source>
+        <target>Infrastructure</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">74</context>
+        </context-group>
+        <note priority="1" from="description"> Header option 1</note>
+        <note priority="1" from="meaning">main_square1 </note>
+      </trans-unit>
+      <trans-unit id="a5282ec8c53198501d947dca3c21d1fc372b844b" datatype="html">
+        <source>Services</source>
+        <target>Services</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">78</context>
+        </context-group>
+        <note priority="1" from="description"> Header option 2</note>
+        <note priority="1" from="meaning">main_square2 </note>
+      </trans-unit>
+      <trans-unit id="591a6ec3308e8f3fc0f7d1f5c25c987fd33b4890" datatype="html">
+        <source>+1K users</source>
+        <target>+1K users</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 1</note>
+        <note priority="1" from="meaning">product_stat1 </note>
+      </trans-unit>
+      <trans-unit id="95769e7dcd47c101294dccd420d49dcf5d38cf01" datatype="html">
+        <source>+40 establishments</source>
+        <target>+40 establishments</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 2</note>
+        <note priority="1" from="meaning">product_stat2 </note>
+      </trans-unit>
+      <trans-unit id="b91bd2e3e25459fee7e0ea1dce3d22960856a884" datatype="html">
+        <source>Digitalizing the nightlife.</source>
+        <target>Digitalizing the nightlife.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> Product 1 header</note>
+        <note priority="1" from="meaning">product_header1 </note>
+      </trans-unit>
+      <trans-unit id="28015103cbddfdad9a59a6c130d0fc83fc3ab7d8" datatype="html">
+        <source>is a way to enhace the whole nightlife experience using the latest tech trends.</source>
+        <target>is a way to enhace the whole nightlife experience using the latest tech trends.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description"> Product 1 description</note>
+        <note priority="1" from="meaning">product1_description </note>
+      </trans-unit>
+      <trans-unit id="5860dd9ab69f9c45ca2adf224f4074a73a5d8de8" datatype="html">
+        <source>See more</source>
+        <target>See more</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <note priority="1" from="description"> See more button</note>
+        <note priority="1" from="meaning">see_more </note>
+      </trans-unit>
+      <trans-unit id="8cb7ca304318aafc58d1622926874639165698b5" datatype="html">
+        <source>+100 products</source>
+        <target>+100 products</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 3</note>
+        <note priority="1" from="meaning">product_stat3 </note>
+      </trans-unit>
+      <trans-unit id="7809a0e2ef6c30828879cb435bae313dc093aafc" datatype="html">
+        <source>+3K operations</source>
+        <target>+3K operations</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 4</note>
+        <note priority="1" from="meaning">product_stat4 </note>
+      </trans-unit>
+      <trans-unit id="81a422ebe9775704521767c6e1428c464ef99d82" datatype="html">
+        <source>Automize facebook selling.</source>
+        <target>Automize facebook selling.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description"> Product 2 header</note>
+        <note priority="1" from="meaning">product_header2 </note>
+      </trans-unit>
+      <trans-unit id="1ebdf0be86bf35457599d88ed9aaa5e733573c06" datatype="html">
+        <source>is an small app to automize your business using Facebook Marketplace.</source>
+        <target>is an small app to automize your business using Facebook Marketplace.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description"> Product 2 description</note>
+        <note priority="1" from="meaning">product2_description </note>
+      </trans-unit>
+      <trans-unit id="30932fd6556a41ebb0ac6688115ba2f39893c81e" datatype="html">
+        <source>All-in-cloud</source>
+        <target>All-in-cloud</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> Service 1 header</note>
+        <note priority="1" from="meaning">service1_header </note>
+      </trans-unit>
+      <trans-unit id="40841c72df83eced8f2b7d8690759040f371c8e9" datatype="html">
+        <source>
+                        We use the power of <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>elastic cloud computing<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to serve all your needs.
+                    </source>
+        <target>We use the power of <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>elastic cloud computing<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to serve all your needs.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description"> Service 1 description</note>
+        <note priority="1" from="meaning">service1_description </note>
+      </trans-unit>
+      <trans-unit id="41bf17a9a22219b8f537a763215a95134191a285" datatype="html">
+        <source>Scalable</source>
+        <target>Scalable</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> Service 2 header</note>
+        <note priority="1" from="meaning">service2_header </note>
+      </trans-unit>
+      <trans-unit id="17f070cfd7518134f91f24909e91b8a56e384bba" datatype="html">
+        <source>
+                        Using the best <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3rd-party web services<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> assures us to scale properly.
+                    </source>
+        <target>Using the best <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3rd-party web services<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> assures us to scale properly.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description"> Service 2 description</note>
+        <note priority="1" from="meaning">service2_description </note>
+      </trans-unit>
+      <trans-unit id="e3e6a243dc115f4859c66666f78c240209cc7859" datatype="html">
+        <source>Fast</source>
+        <target>Fast</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description"> Service 3 header</note>
+        <note priority="1" from="meaning">service3_header </note>
+      </trans-unit>
+      <trans-unit id="f0f0f698f3c06b23a23226d7b85c6a0d837e1c00" datatype="html">
+        <source>
+                        Your data is <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>served dynamically<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> using edge servers all around the globe to deliver content faster.
+                    </source>
+        <target>Your data is <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>served dynamically<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> using edge servers all around the globe to deliver content faster.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description"> Service 3 description</note>
+        <note priority="1" from="meaning">service3_description </note>
+      </trans-unit>
+      <trans-unit id="5e3a224726acad200af9a82fdcb002a25219d89c" datatype="html">
+        <source>Secure</source>
+        <target>Secure</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description"> Service 4 header</note>
+        <note priority="1" from="meaning">service4_header </note>
+      </trans-unit>
+      <trans-unit id="f2e02b93360c1e7e6c8f9362e0189329cf83122e" datatype="html">
+        <source>
+                        Damascus Engineering™&apos;s infrastructure is secured thanks to the <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>internal isolated network<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> within its cloud.
+                    </source>
+        <target>Damascus Engineering™&apos;s infrastructure is secured thanks to the <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>internal isolated network<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> within its cloud.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <note priority="1" from="description"> Service 4 description</note>
+        <note priority="1" from="meaning">service4_description </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
