@@ -49,6 +49,30 @@
     z-index: 999;
 
     padding: 50px 150px;
+    
+    transition: 0.2s;
+
+    span {
+        font-size: 2em;
+    }
+
+    img {
+        transition: 0.2s;
+    }
+}
+
+/* Desktop navbar misc */
+.navbar-alt {
+    @extend .mat-elevation-z4;
+    
+    padding: 10px 150px;
+    background-color:#000 !important;
+    font-size: 0.8em;
+
+    img {
+        height: 28px;
+        transition: 0.2s;
+    }
 }
 
 .title-wrapper {
@@ -110,7 +134,7 @@
 }
 
 .body {
-    padding: 170px 0;
+    padding: 170px 0 0;
 }
 
 .head-squares {
@@ -306,7 +330,7 @@
     }
 
     .header {
-        padding: 150px 100px;
+        padding: 150px 100px 10px;
     }
 
     .headline {

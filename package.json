@@ -8,8 +8,8 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "ng:buid:en": "ng build --output-path=dist/en --aot --prod --base-href /en/ --i18n-file=src/locale/messages.en.xlf --i18n-format=xlf --i18n-locale=en-US",
-    "ng:buid:es": "ng build --output-path=dist/es --aot --prod --base-href /es/ --i18n-file=src/locale/messages.es.xlf --i18n-format=xlf --i18n-locale=es"
+    "ng:build:en": "ng build --output-path=dist/en --aot --prod --base-href /en/ --i18n-file=src/locale/messages.en.xlf --i18n-format=xlf --i18n-locale=en",
+    "ng:build:es": "ng build --output-path=dist/es --aot --prod --base-href /es/ --i18n-file=src/locale/messages.es.xlf --i18n-format=xlf --i18n-locale=es"
   },
   "private": true,
   "dependencies": {
@@ -29,7 +29,6 @@
     "smoothscroll-polyfill": "^0.4.4",
     "swiper": "^4.5.0",
     "tslib": "^1.9.0",
-    "wowjs": "^1.1.3",
     "zone.js": "~0.9.1"
   },
   "devDependencies": {

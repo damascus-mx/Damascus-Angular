@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
-  <file source-language="es" datatype="plaintext" original="ng2.template">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
     <body>
       <trans-unit id="af21cfea25b997b0fe467df9b771bc553ddb2055" datatype="html">
         <source>Home</source>
@@ -44,61 +44,47 @@
         <note priority="1" from="description"> Services menu</note>
         <note priority="1" from="meaning">menu_services </note>
       </trans-unit>
-      <trans-unit id="e7125875a189f6b550aa6bcdf9a24fd785288820" datatype="html">
-        <source>Contact</source>
-        <target>Contacto</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
-          <context context-type="linenumber">13</context>
-        </context-group>
+      <trans-unit id="ae59b79486fac8838579d596512033a99e65d372" datatype="html">
+        <source>Greatness from small beginnings.</source>
+        <target>Grandeza desde pequeños inicios.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
           <context context-type="linenumber">61</context>
         </context-group>
-        <note priority="1" from="description"> Contact menu</note>
-        <note priority="1" from="meaning">menu_contact </note>
-      </trans-unit>
-      <trans-unit id="d43822625b82784b4433c8321fc3536b0d982c9e" datatype="html">
-        <source>Transform your ideas</source>
-        <target>Transforma tus ideas</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
-          <context context-type="linenumber">67</context>
-        </context-group>
         <note priority="1" from="description"> Main title header</note>
         <note priority="1" from="meaning">main_header </note>
       </trans-unit>
-      <trans-unit id="2f91d0009490943d3cfa0796f3658c61d6c7f3c9" datatype="html">
+      <trans-unit id="9ec674c4df0aa63d9b7b5d3f552e6cf4fa65c539" datatype="html">
         <source>
-                        Make your business bigger with Damascus Engineering™ infrastructure &amp; solutions.
+                        We encourage businesses to grow correctly with our Services &amp; Infrastructure.
                     </source>
-        <target>Haga crecer su negocio con la infraestructura y soluciones de Damascus Engineering™</target>
+        <target>Alentamos a las empresas a crecer correctamente con nuestros servicios e infraestructura.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
-          <context context-type="linenumber">68</context>
+          <context context-type="linenumber">62</context>
         </context-group>
         <note priority="1" from="description"> Main slogan on header</note>
         <note priority="1" from="meaning">main_slogan </note>
-      </trans-unit>
-      <trans-unit id="f72b572bfc43a5e527b15b7ac8dd9ae3be35534b" datatype="html">
-        <source>Infrastructure</source>
-        <target>Infraestructura</target>
-        <context-group purpose="location">
-          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
-          <context context-type="linenumber">74</context>
-        </context-group>
-        <note priority="1" from="description"> Header option 1</note>
-        <note priority="1" from="meaning">main_square1 </note>
       </trans-unit>
       <trans-unit id="a5282ec8c53198501d947dca3c21d1fc372b844b" datatype="html">
         <source>Services</source>
         <target>Servicios</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
-          <context context-type="linenumber">78</context>
+          <context context-type="linenumber">68</context>
         </context-group>
         <note priority="1" from="description"> Header option 2</note>
         <note priority="1" from="meaning">main_square2 </note>
+      </trans-unit>
+      <trans-unit id="f72b572bfc43a5e527b15b7ac8dd9ae3be35534b" datatype="html">
+        <source>Infrastructure</source>
+        <target>Infraestructura</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <note priority="1" from="description"> Header option 1</note>
+        <note priority="1" from="meaning">main_square1 </note>
       </trans-unit>
       <trans-unit id="591a6ec3308e8f3fc0f7d1f5c25c987fd33b4890" datatype="html">
         <source>+1K users</source>
@@ -110,9 +96,9 @@
         <note priority="1" from="description"> Statistic 1</note>
         <note priority="1" from="meaning">product_stat1 </note>
       </trans-unit>
-      <trans-unit id="95769e7dcd47c101294dccd420d49dcf5d38cf01" datatype="html">
-        <source>+40 establishments</source>
-        <target>+40 establecimientos</target>
+      <trans-unit id="737a9b7b3256b19fd4600ccef76c1a75f865cbbc" datatype="html">
+        <source>+20 establishments</source>
+        <target>+20 establecimientos</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
           <context context-type="linenumber">15</context>
@@ -120,9 +106,9 @@
         <note priority="1" from="description"> Statistic 2</note>
         <note priority="1" from="meaning">product_stat2 </note>
       </trans-unit>
-      <trans-unit id="b91bd2e3e25459fee7e0ea1dce3d22960856a884" datatype="html">
-        <source>Digitalizing the nightlife.</source>
-        <target>Digitalizando la vida nocturna.</target>
+      <trans-unit id="0d83ceb88188de5340eee78be93ea1300a29a8e5" datatype="html">
+        <source>Connecting places with you.</source>
+        <target>Conectando lugares contigo.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
           <context context-type="linenumber">27</context>
@@ -130,9 +116,9 @@
         <note priority="1" from="description"> Product 1 header</note>
         <note priority="1" from="meaning">product_header1 </note>
       </trans-unit>
-      <trans-unit id="28015103cbddfdad9a59a6c130d0fc83fc3ab7d8" datatype="html">
-        <source>is a way to enhace the whole nightlife experience using the latest tech trends.</source>
-        <target>es una forma de mejorar la vida nocturna usando las últimas tendencias tecnológicas.</target>
+      <trans-unit id="d095da746d3ca0155d919a479edbcd70aab1365f" datatype="html">
+        <source>is a way to connect people with places using the latest tech trends.</source>
+        <target>es una forma de conectar a la gente con los establecimientos usando las últimas tendencias tecnológicas.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
           <context context-type="linenumber">28</context>
@@ -174,9 +160,9 @@
         <note priority="1" from="description"> Statistic 4</note>
         <note priority="1" from="meaning">product_stat4 </note>
       </trans-unit>
-      <trans-unit id="81a422ebe9775704521767c6e1428c464ef99d82" datatype="html">
-        <source>Automize facebook selling.</source>
-        <target>Automatizar ventas por facebook.</target>
+      <trans-unit id="6d048711afebcf575634aa71e06d922cc839facf" datatype="html">
+        <source>Enhance facebook selling.</source>
+        <target>Mejorar ventas por facebook.</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
           <context context-type="linenumber">61</context>
@@ -193,6 +179,16 @@
         </context-group>
         <note priority="1" from="description"> Product 2 description</note>
         <note priority="1" from="meaning">product2_description </note>
+      </trans-unit>
+      <trans-unit id="daa84b30b6175464464258d7209d5eac42e7b491" datatype="html">
+        <source>Services</source>
+        <target>Servicios</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description"> Services header</note>
+        <note priority="1" from="meaning">service_header </note>
       </trans-unit>
       <trans-unit id="30932fd6556a41ebb0ac6688115ba2f39893c81e" datatype="html">
         <source>All-in-cloud</source>
@@ -281,6 +277,56 @@
         </context-group>
         <note priority="1" from="description"> Service 4 description</note>
         <note priority="1" from="meaning">service4_description </note>
+      </trans-unit>
+      <trans-unit id="752188feb61bbadecf337d2f213991624b2ec883" datatype="html">
+        <source>Powered</source>
+        <target>Impulsado</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description"> Powered header</note>
+        <note priority="1" from="meaning">powered_header </note>
+      </trans-unit>
+      <trans-unit id="90e0796979eef513025059451f8fa7741bbd421e" datatype="html">
+        <source>Language</source>
+        <target>Lenguaje</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description"> Language title</note>
+        <note priority="1" from="meaning">language_title </note>
+      </trans-unit>
+      <trans-unit id="b2a2bee9e17518f67c5f2245106fc33407b517bf" datatype="html">
+        <source>Careers</source>
+        <target>Empleos</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description"> Careers title</note>
+        <note priority="1" from="meaning">careers_title </note>
+      </trans-unit>
+      <trans-unit id="003b2ba56cd0d2a1aa12ef4f26ff6dae22a3cc89" datatype="html">
+        <source>Apply now</source>
+        <target>Aplicar ahora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description"> Apply now label</note>
+        <note priority="1" from="meaning">apply_label </note>
+      </trans-unit>
+      <trans-unit id="4f531c7194899b46c107ed303b5398205445407e" datatype="html">
+        <source>Developers</source>
+        <target>Desarrolladores</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description"> Developers title</note>
+        <note priority="1" from="meaning">dev_title </note>
       </trans-unit>
     </body>
   </file>
