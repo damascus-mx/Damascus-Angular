@@ -49,8 +49,6 @@
 
         flex-flow: row wrap;
         color: #fff;
-
-        justify-content: center;
         align-items: center;
 
         img {
@@ -72,6 +70,7 @@
         font-size: small;
 
         justify-content: space-between;
+        align-items: baseline;
 
         * {
             margin: 5px;

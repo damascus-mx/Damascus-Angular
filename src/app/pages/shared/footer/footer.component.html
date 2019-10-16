@@ -9,8 +9,12 @@
                 <span i18n="language_title | Language title">Language</span>
             </div>
             <div>
-                <a href="https://damascus-engineering.com/"><span class="flag-icon flag-icon-us"></span></a>
-                <a href="https://damascus-engineering.com/es"><span class="flag-icon flag-icon-es"></span></a>
+                <mat-form-field class="app-dark">
+                    <mat-label i18n="language_option | Language option">Select an option</mat-label>
+                    <mat-select [(ngModel)]="selected" name="culture" (selectionChange)="selectionChanged($event)">
+                        <mat-option *ngFor="let culture of cultures" [value]="culture.value"> {{culture.viewValue}} </mat-option>
+                    </mat-select>
+                </mat-form-field>
             </div>
         </div>
         <div class="info">

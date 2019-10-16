@@ -298,6 +298,16 @@
         <note priority="1" from="description"> Language title</note>
         <note priority="1" from="meaning">language_title </note>
       </trans-unit>
+      <trans-unit id="0f8f524e479af4d94392a51a4b365d16d83e4124" datatype="html">
+        <source>Select an option</source>
+        <target>Select an option</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description"> Language option</note>
+        <note priority="1" from="meaning">language_option </note>
+      </trans-unit>
       <trans-unit id="b2a2bee9e17518f67c5f2245106fc33407b517bf" datatype="html">
         <source>Careers</source>
         <target>Careers</target>
@@ -327,6 +337,16 @@
         </context-group>
         <note priority="1" from="description"> Developers title</note>
         <note priority="1" from="meaning">dev_title </note>
+      </trans-unit>
+      <trans-unit id="6a64af8094261aa471ef6e1dc94ba1a7b3fed234" datatype="html">
+        <source>Not found.</source>
+        <target>Not found.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/not-found/components/not-found.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Not found label</note>
+        <note priority="1" from="meaning">notfound_1 </note>
       </trans-unit>
     </body>
   </file>

@@ -7,24 +7,17 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     exports: [
         Material.MatButtonModule,
         Material.MatCardModule,
-        Material.MatFormFieldModule,
-        Material.MatInputModule,
         Material.MatIconModule,
         Material.MatToolbarModule,
         Material.MatListModule,
-        Material.MatChipsModule,
-        Material.MatDialogModule,
         Material.MatDividerModule,
         Material.MatBadgeModule,
-        Material.MatAutocompleteModule,
-        Material.MatProgressSpinnerModule,
-        Material.MatProgressBarModule,
-        Material.MatTabsModule,
         Material.MatSidenavModule,
         Material.MatSnackBarModule,
+        Material.MatSelectModule,
         LayoutModule,
         FormsModule,
-        ReactiveFormsModule,
+        ReactiveFormsModule
     ]
 })
 

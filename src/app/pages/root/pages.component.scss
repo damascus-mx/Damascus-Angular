@@ -153,7 +153,7 @@
 .square {
     margin: 10px 20px 0 0;
     padding: 50px 40px;
-    width: 100px;
+    min-width: 100px;
 
     display: flex;
     display: -moz-box;
