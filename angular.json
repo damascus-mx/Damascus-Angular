@@ -69,6 +69,15 @@
               "i18nMissingTranslation": "error",
               "baseHref": "/es/"
             },
+            "it": { 
+              "aot": true,
+              "outputPath": "dist/it/",
+              "i18nFile": "src/locale/messages.it.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "it",
+              "i18nMissingTranslation": "error",
+              "baseHref": "/it/"
+            },
             "en": {
               "aot": true,
               "outputPath": "dist/en/",
@@ -91,6 +100,9 @@
             },
             "es": {
               "browserTarget": "damascus-angular:build:es"
+            },
+            "it": {
+              "browserTarget": "damascus-angular:build:it"
             },
             "en": {
               "browserTarget": "damascus-angular:build:en"

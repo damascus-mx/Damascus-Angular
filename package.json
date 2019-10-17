@@ -9,7 +9,8 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "ng:build:en": "ng build --output-path=dist/en --aot --prod --base-href /en/ --i18n-file=src/locale/messages.en.xlf --i18n-format=xlf --i18n-locale=en",
-    "ng:build:es": "ng build --output-path=dist/es --aot --prod --base-href /es/ --i18n-file=src/locale/messages.es.xlf --i18n-format=xlf --i18n-locale=es"
+    "ng:build:es": "ng build --output-path=dist/es --aot --prod --base-href /es/ --i18n-file=src/locale/messages.es.xlf --i18n-format=xlf --i18n-locale=es",
+    "ng:build:it": "ng build --output-path=dist/it --aot --prod --base-href /it/ --i18n-file=src/locale/messages.it.xlf --i18n-format=xlf --i18n-locale=it"
   },
   "private": true,
   "dependencies": {

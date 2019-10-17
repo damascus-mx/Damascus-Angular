@@ -16,7 +16,8 @@ export class FooterComponent implements OnInit {
   selected: string;
   cultures: Culture[] = [
     {value: CultureEnum.english, viewValue: 'English'},
-    {value: CultureEnum.spanish, viewValue: 'Español'}
+    {value: CultureEnum.spanish, viewValue: 'Español'},
+    {value: CultureEnum.italian, viewValue: 'italiano'}
   ];
 
   constructor(@Inject(LOCALE_ID) private locale: string, @Inject(DOCUMENT) private document: Document) {

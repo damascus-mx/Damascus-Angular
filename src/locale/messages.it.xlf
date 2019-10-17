@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+  <file source-language="en" datatype="plaintext" original="ng2.template">
+    <body>
+      <trans-unit id="af21cfea25b997b0fe467df9b771bc553ddb2055" datatype="html">
+        <source>Home</source>
+        <target>Home</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">10</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">43</context>
+        </context-group>
+        <note priority="1" from="description"> Main menu</note>
+        <note priority="1" from="meaning">menu_home </note>
+      </trans-unit>
+      <trans-unit id="42d6f50cbcf221cb75b514cde618d34e9b34dfdc" datatype="html">
+        <source>Products</source>
+        <target>Prodotti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description"> Product menu</note>
+        <note priority="1" from="meaning">menu_products </note>
+      </trans-unit>
+      <trans-unit id="7d85e3c2205d1195bac54f0496429d32e055e79e" datatype="html">
+        <source>Services</source>
+        <target>Servizi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">55</context>
+        </context-group>
+        <note priority="1" from="description"> Services menu</note>
+        <note priority="1" from="meaning">menu_services </note>
+      </trans-unit>
+      <trans-unit id="ae59b79486fac8838579d596512033a99e65d372" datatype="html">
+        <source>Greatness from small beginnings.</source>
+        <target>Grandezza da piccoli inizi.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description"> Main title header</note>
+        <note priority="1" from="meaning">main_header </note>
+      </trans-unit>
+      <trans-unit id="9ec674c4df0aa63d9b7b5d3f552e6cf4fa65c539" datatype="html">
+        <source>
+                        We encourage businesses to grow correctly with our Services &amp; Infrastructure.
+                    </source>
+        <target>Incoraggiamo le aziende a crescere correttamente con i nostri servizi e infrastrutture.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description"> Main slogan on header</note>
+        <note priority="1" from="meaning">main_slogan </note>
+      </trans-unit>
+      <trans-unit id="a5282ec8c53198501d947dca3c21d1fc372b844b" datatype="html">
+        <source>Services</source>
+        <target>Servizi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">68</context>
+        </context-group>
+        <note priority="1" from="description"> Header option 2</note>
+        <note priority="1" from="meaning">main_square2 </note>
+      </trans-unit>
+      <trans-unit id="f72b572bfc43a5e527b15b7ac8dd9ae3be35534b" datatype="html">
+        <source>Infrastructure</source>
+        <target>Infrastruttura</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/root/pages.component.html</context>
+          <context context-type="linenumber">72</context>
+        </context-group>
+        <note priority="1" from="description"> Header option 1</note>
+        <note priority="1" from="meaning">main_square1 </note>
+      </trans-unit>
+      <trans-unit id="591a6ec3308e8f3fc0f7d1f5c25c987fd33b4890" datatype="html">
+        <source>+1K users</source>
+        <target>+1Mille utenti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">12</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 1</note>
+        <note priority="1" from="meaning">product_stat1 </note>
+      </trans-unit>
+      <trans-unit id="737a9b7b3256b19fd4600ccef76c1a75f865cbbc" datatype="html">
+        <source>+20 establishments</source>
+        <target>+20 stabilimenti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">15</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 2</note>
+        <note priority="1" from="meaning">product_stat2 </note>
+      </trans-unit>
+      <trans-unit id="0d83ceb88188de5340eee78be93ea1300a29a8e5" datatype="html">
+        <source>Connecting places with you.</source>
+        <target>Collegando luoghi con te.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> Product 1 header</note>
+        <note priority="1" from="meaning">product_header1 </note>
+      </trans-unit>
+      <trans-unit id="d095da746d3ca0155d919a479edbcd70aab1365f" datatype="html">
+        <source>is a way to connect people with places using the latest tech trends.</source>
+        <target>è un modo per connettere le persone ai luoghi utilizzando le ultime tendenze tecnologiche.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">28</context>
+        </context-group>
+        <note priority="1" from="description"> Product 1 description</note>
+        <note priority="1" from="meaning">product1_description </note>
+      </trans-unit>
+      <trans-unit id="5860dd9ab69f9c45ca2adf224f4074a73a5d8de8" datatype="html">
+        <source>See more</source>
+        <target>Vedi altro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">31</context>
+        </context-group>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">65</context>
+        </context-group>
+        <note priority="1" from="description"> See more button</note>
+        <note priority="1" from="meaning">see_more </note>
+      </trans-unit>
+      <trans-unit id="8cb7ca304318aafc58d1622926874639165698b5" datatype="html">
+        <source>+100 products</source>
+        <target>+100 prodotti</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">46</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 3</note>
+        <note priority="1" from="meaning">product_stat3 </note>
+      </trans-unit>
+      <trans-unit id="7809a0e2ef6c30828879cb435bae313dc093aafc" datatype="html">
+        <source>+3K operations</source>
+        <target>+3Mille operazioni</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">49</context>
+        </context-group>
+        <note priority="1" from="description"> Statistic 4</note>
+        <note priority="1" from="meaning">product_stat4 </note>
+      </trans-unit>
+      <trans-unit id="6d048711afebcf575634aa71e06d922cc839facf" datatype="html">
+        <source>Enhance facebook selling.</source>
+        <target>Migliora le vendite tramite Facebook.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description"> Product 2 header</note>
+        <note priority="1" from="meaning">product_header2 </note>
+      </trans-unit>
+      <trans-unit id="1ebdf0be86bf35457599d88ed9aaa5e733573c06" datatype="html">
+        <source>is an small app to automize your business using Facebook Marketplace.</source>
+        <target>è una piccola app per automatizzare la tua attività utilizzando Facebook Marketplace.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/products/products.component.html</context>
+          <context context-type="linenumber">62</context>
+        </context-group>
+        <note priority="1" from="description"> Product 2 description</note>
+        <note priority="1" from="meaning">product2_description </note>
+      </trans-unit>
+      <trans-unit id="daa84b30b6175464464258d7209d5eac42e7b491" datatype="html">
+        <source>Services</source>
+        <target>Servizi</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">2</context>
+        </context-group>
+        <note priority="1" from="description"> Services header</note>
+        <note priority="1" from="meaning">service_header </note>
+      </trans-unit>
+      <trans-unit id="30932fd6556a41ebb0ac6688115ba2f39893c81e" datatype="html">
+        <source>All-in-cloud</source>
+        <target>Tutto-nel-cloud</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">11</context>
+        </context-group>
+        <note priority="1" from="description"> Service 1 header</note>
+        <note priority="1" from="meaning">service1_header </note>
+      </trans-unit>
+      <trans-unit id="40841c72df83eced8f2b7d8690759040f371c8e9" datatype="html">
+        <source>
+                        We use the power of <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>elastic cloud computing<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> to serve all your needs.
+                    </source>
+        <target>Usiamo la potenza del <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>cloud computing elastico<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> per soddisfare tutte le vostre esigenze.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description"> Service 1 description</note>
+        <note priority="1" from="meaning">service1_description </note>
+      </trans-unit>
+      <trans-unit id="41bf17a9a22219b8f537a763215a95134191a285" datatype="html">
+        <source>Scalable</source>
+        <target>Scalabile</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">27</context>
+        </context-group>
+        <note priority="1" from="description"> Service 2 header</note>
+        <note priority="1" from="meaning">service2_header </note>
+      </trans-unit>
+      <trans-unit id="17f070cfd7518134f91f24909e91b8a56e384bba" datatype="html">
+        <source>
+                        Using the best <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3rd-party web services<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> assures us to scale properly.
+                    </source>
+        <target>L'uso dei migliori <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>servizi Web di terze<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> parti ci consente di ridimensionare correttamente..</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">29</context>
+        </context-group>
+        <note priority="1" from="description"> Service 2 description</note>
+        <note priority="1" from="meaning">service2_description </note>
+      </trans-unit>
+      <trans-unit id="e3e6a243dc115f4859c66666f78c240209cc7859" datatype="html">
+        <source>Fast</source>
+        <target>Veloce</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">45</context>
+        </context-group>
+        <note priority="1" from="description"> Service 3 header</note>
+        <note priority="1" from="meaning">service3_header </note>
+      </trans-unit>
+      <trans-unit id="f0f0f698f3c06b23a23226d7b85c6a0d837e1c00" datatype="html">
+        <source>
+                        Your data is <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>served dynamically<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> using edge servers all around the globe to deliver content faster.
+                    </source>
+        <target>I dati vengono forniti in <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>modo dinamico<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> utilizzando i server perimetrali in tutto il mondo per fornire i contenuti più rapidamente.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">47</context>
+        </context-group>
+        <note priority="1" from="description"> Service 3 description</note>
+        <note priority="1" from="meaning">service3_description </note>
+      </trans-unit>
+      <trans-unit id="5e3a224726acad200af9a82fdcb002a25219d89c" datatype="html">
+        <source>Secure</source>
+        <target>Sicuro</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">61</context>
+        </context-group>
+        <note priority="1" from="description"> Service 4 header</note>
+        <note priority="1" from="meaning">service4_header </note>
+      </trans-unit>
+      <trans-unit id="f2e02b93360c1e7e6c8f9362e0189329cf83122e" datatype="html">
+        <source>
+                        Damascus Engineering™&apos;s infrastructure is secured thanks to the <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>internal isolated network<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> within its cloud.
+                    </source>
+        <target>L'infrastruttura di Damascus Engineering™ è protetta grazie alla <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>rete isolata interna<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> all'interno del suo cloud.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">63</context>
+        </context-group>
+        <note priority="1" from="description"> Service 4 description</note>
+        <note priority="1" from="meaning">service4_description </note>
+      </trans-unit>
+      <trans-unit id="752188feb61bbadecf337d2f213991624b2ec883" datatype="html">
+        <source>Powered</source>
+        <target>Alimentato</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
+          <context context-type="linenumber">70</context>
+        </context-group>
+        <note priority="1" from="description"> Powered header</note>
+        <note priority="1" from="meaning">powered_header </note>
+      </trans-unit>
+      <trans-unit id="90e0796979eef513025059451f8fa7741bbd421e" datatype="html">
+        <source>Language</source>
+        <target>Linguaggio</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">9</context>
+        </context-group>
+        <note priority="1" from="description"> Language title</note>
+        <note priority="1" from="meaning">language_title </note>
+      </trans-unit>
+      <trans-unit id="0f8f524e479af4d94392a51a4b365d16d83e4124" datatype="html">
+        <source>Select an option</source>
+        <target>Seleziona un'opzione</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">13</context>
+        </context-group>
+        <note priority="1" from="description"> Language option</note>
+        <note priority="1" from="meaning">language_option </note>
+      </trans-unit>
+      <trans-unit id="b2a2bee9e17518f67c5f2245106fc33407b517bf" datatype="html">
+        <source>Careers</source>
+        <target>Lavori</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">22</context>
+        </context-group>
+        <note priority="1" from="description"> Careers title</note>
+        <note priority="1" from="meaning">careers_title </note>
+      </trans-unit>
+      <trans-unit id="003b2ba56cd0d2a1aa12ef4f26ff6dae22a3cc89" datatype="html">
+        <source>Apply now</source>
+        <target>Applica ora</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">23</context>
+        </context-group>
+        <note priority="1" from="description"> Apply now label</note>
+        <note priority="1" from="meaning">apply_label </note>
+      </trans-unit>
+      <trans-unit id="4f531c7194899b46c107ed303b5398205445407e" datatype="html">
+        <source>Developers</source>
+        <target>Sviluppatori</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/pages/shared/footer/footer.component.html</context>
+          <context context-type="linenumber">26</context>
+        </context-group>
+        <note priority="1" from="description"> Developers title</note>
+        <note priority="1" from="meaning">dev_title </note>
+      </trans-unit>
+      <trans-unit id="6a64af8094261aa471ef6e1dc94ba1a7b3fed234" datatype="html">
+        <source>Not found.</source>
+        <target>Non trovato.</target>
+        <context-group purpose="location">
+          <context context-type="sourcefile">src/app/shared/not-found/components/not-found.component.html</context>
+          <context context-type="linenumber">3</context>
+        </context-group>
+        <note priority="1" from="description"> Not found label</note>
+        <note priority="1" from="meaning">notfound_1 </note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
