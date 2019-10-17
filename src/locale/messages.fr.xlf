@@ -226,7 +226,7 @@
         <source>
                         Using the best <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>3rd-party web services<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> assures us to scale properly.
                     </source>
-        <target>L'uso dei migliori <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>servizi Web di terze<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> parti ci consente di ridimensionare correttamente.</target>
+        <target>L'uso dei migliori <x id="START_BOLD_TEXT" ctype="x-b" equiv-text="&lt;b&gt;"/>servizi Web di terze<x id="CLOSE_BOLD_TEXT" ctype="x-b" equiv-text="&lt;/b&gt;"/> parti ci consente di ridimensionare correttamente..</target>
         <context-group purpose="location">
           <context context-type="sourcefile">src/app/pages/shared/services/services.component.html</context>
           <context context-type="linenumber">29</context>
